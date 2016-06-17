@@ -1,3 +1,10 @@
+# Changes in the fork
+
+- Added Claims view to render all claims issued by Azure AD. Note that this triggers authentication if required.
+- Replaced legacy MSBuild-Integrated package restore with [Automatic Package Restore](http://docs.nuget.org/consume/package-restore/migrating-to-automatic-package-restore) 
+
+Follow the instructions below to run this sample. 
+
 ---
 services: active-directory
 platforms: dotnet
